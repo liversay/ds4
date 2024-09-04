@@ -21,5 +21,12 @@
             resultado = (a + b) * (a - b);
             return resultado;  
         }
+
+        public double calculoArea(double radio)
+        {
+            double area;
+            area = double.Pi * Math.Pow(radio, 2);
+            return area;
+        }
     }
 }
