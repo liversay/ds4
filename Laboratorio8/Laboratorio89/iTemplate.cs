@@ -3,7 +3,7 @@
 class iTemplate
 {
         public void ponerVariable(string nombre, string var) { };
-        public void verHtml(string template) { };
+        public void verHtml(string template)  { };
 }
 
 }
